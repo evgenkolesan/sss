@@ -1,0 +1,241 @@
+#title {
+  background-color:#333d29;
+  color: #fb9797;
+}
+h1 {
+  font-family: "Oswald";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "oswald";
+  font-weight: bold;
+}
+body {
+  font-family: "roboto";
+}
+.container-fluid{
+  background-color: #333d29;
+  padding: 0;
+}
+
+.header {
+  background-color: #333d29;
+  color: #e192a2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.header ul li {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+
+}
+
+.download {
+  background-color: #333d29;
+  color: #fff;
+}
+.bg-black {
+  --bs-bg-opacity: auto;
+  background-color: darkgray;}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 30px 0;
+
+}
+
+.gadgets {
+  background-color: #333d29;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  margin: auto;
+}
+
+.gadgets h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+}
+
+
+.iphone {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  background-color: rgb(56, 53, 53);
+  color: #fff;
+}
+
+.iphone>svg {
+  margin-top: 5px;
+  padding: 2px;
+}
+
+.youtube {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px;
+  background-color: #292a28;
+  color: #fff;
+}
+
+
+.youtube>svg {
+  margin-top: 7px;
+  padding: 2px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.easy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 50px 0;
+}
+
+.devices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 50px 0;
+}
+
+.devices h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 50px 0;
+}
+
+.works h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.reklama {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+.reklama h5 {
+  margin: 20px 30px 0 30px;
+}
+
+.netbook {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+.netbook p {
+  display:flex;
+  justify-content: center;
+  align-items:end;
+  color: #e71313;
+  font-family: cursive;
+}
+
+.sponsor {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.sponsor_1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px auto;
+}
+
+.sponsor_2 {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+}
+
+.sponsor_3 {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px auto;
+}
+
+.price_container {
+  margin: 30px;
+}
+.card-body_1>button{
+  background-color: #2e2d2d;
+}
+
+.card-body_2>button {
+  background-color: #302c2c;
+}
+
+.card-body_3>button {
+  background-color: #302e2e;
+}
+
+div.card-header {
+  background-color: rgb(240, 238, 230);
+}
+
+#footer {
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+}
+
+#footer p {
+  color: #f80404;
+  padding: 10px auto;
+  margin: 10px auto;
+}
